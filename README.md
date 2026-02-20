@@ -19,5 +19,12 @@ docker-compose up
 docker-compose up -d
 ```
 
+## Running Service
+
+### Database
+```sh
+docker compose -f docker-compose.yaml up # monitoring
+docker compose -f docker-compose.yaml up -d # background
+```
 
 
